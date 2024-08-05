@@ -1,0 +1,9 @@
+.d-grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+
+.active{
+  font-weight: bold;
+}
