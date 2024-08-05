@@ -16,7 +16,7 @@ result: string = '';
 
 ngAfterViewInit() {
   this.stream$ = fromEvent(this.createButton?.nativeElement, 'click');
-  this.stream$.subscribe( res => {
+  this.stream$.subscribe( () => {
     this.result += '.'
   })
 }
